@@ -4,7 +4,7 @@ import Button1 from "./components/Button1.vue"
 
 <template>
 
-  <div class="flex justify-center">
+  <div class="flex justify-center ">
     <Button1 text="Catalogue"/>
   </div>
 
