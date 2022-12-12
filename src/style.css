@@ -4,4 +4,10 @@
 
 body {
     background: gray;
+    overflow-y: hidden;
+}
+
+.anim:hover {
+    background-color: rgba(131, 154, 126, 0.53);
+    transition: all .2s ease-in-out;
 }
