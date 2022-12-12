@@ -19,11 +19,7 @@ import Button1 from "./components/Button1.vue"
 
   <div class="relative">
     <img class="w-full absolute bottom-0" src="public/img/Vector%206.svg" alt="path2">
-    <img class="w-full absolute bottom-0" src="public/img/Vector%207.svg" alt="path2">
-    <img class="w-full absolute bottom-0" src="public/img/Vector%209.svg" alt="path2">
-    <div class="flex flex-col">
-      <p class="z-40 text-center text-2xl text-white mb-[200px] px-[12px]">Consultez nous pour vos réparations de bois, métal, textile, cuir…, notre réseau d’artisans vous proposera la meilleure solution et la plus économique !</p>
-    </div>
+    <img class="w-full absolute bottom-0" src="public/img/Vector%208.svg" alt="path2">
     <div class="rectangle"/>
   </div>
 </div>
