@@ -13,11 +13,11 @@ import Button1 from "./components/Button1.vue"
   </div>
 </div>
 
-
+<!--
 <div class=" box box-border absolute w-[1012px] h-[637px] left-[224px] top-[583px] z-50">
   <p class=" absolute left-12 top-12 not-italic font-light text-2xl leading-9">Consultez nous pour vos réparations de bois, métal, textile, cuir…, notre réseau d’artisans vous proposera la meilleure solution et la plus économique !</p>
 </div>
-
+ -->
 <div class="mt-[800px]">
 
   <div class="relative">
@@ -27,14 +27,14 @@ import Button1 from "./components/Button1.vue"
 
     <div class="flex justify-center gap-x-8 mb-[150px] max-md:mb-4 max-lg:mb-6 max-xl:mb-16 max-sm:flex-col max-sm:gap-y-8">
       <div class="flex flex-col max-sm:gap-y-1 gap-y-8">
-        <img class="h-[100px] z-10 max-md:h-[50px] max-sm:hidden" src="public/img/Group%2079.svg" alt="icone-arbre">
+        <img class="h-[100px] z-10 max-md:h-[50px] max-sm:hidden" src="public/img/Group%2079.svg" alt="icone-arbre" id="icon-arbre">
         <img class="h-[100px] z-10 max-md:h-[50px] sm:hidden" src="public/img/black-tree.svg" alt="icone-arbre">
-        <p class="text-white text-xl font-light z-10 text-center max-md:text-[16px] max-sm:text-black">Une démarche 100 % éco-responsable</p>
+        <p class="text-black text-xl font-light z-10 text-center max-sm:text-[16px] sm:text-white">Une démarche 100 % éco-responsable</p>
       </div>
       <div class="flex flex-col max-sm:gap-y-1 gap-y-8">
-        <img class="h-[100px] z-10 max-md:h-[50px] max-sm:hidden" src="public/img/Group%2078.svg" alt="icone-arbre">
+        <img class="h-[100px] z-10 max-md:h-[50px] max-sm:hidden" src="public/img/Group%2078.svg" alt="icone-eco" id="icon-eco">
         <img class="h-[100px] z-10 max-md:h-[50px] sm:hidden" src="public/img/black-eco.svg" alt="icone-arbre">
-        <p class="text-white text-xl font-light z-10 text-center max-md:text-[16px] max-sm:text-black">Redonnez une vie à un ancien meuble</p>
+        <p class="text-black text-xl font-light z-10 text-center max-sm:text-[16px] sm:text-white">Redonnez une vie à un ancien meuble</p>
       </div>
     </div>
 
@@ -50,18 +50,29 @@ import Button1 from "./components/Button1.vue"
 
 
 
-<div class=" bg-green h-[632px] left-px top-[2317px]">
-<div class="rectangle2"></div>
+<div class="bg-darkgreen">
 
-<div class="max-md:flex flex-col">
-  <div class=" flex flex-col absolute w-[236px] h-[214px] left-14 top-[2661px] bg-grey  "></div>
-<p class="absolute w-[373px] h-[235px] left-[313px] top-[2640px] not-italic font-normal text-xl leading-6 text-white ">Pour notre emménagement sur Paris, nous souhaitions acheter au maximum nos meubles en seconde main, nous sommes passés par la boutique les meubles circulaires et aucun regret. Très bonne expérience !</p>
-<p class="absolute w-[336px] h-[88px] left-[313px] top-[2852px] not-italic font-normal text-xl leading-6 text-white ">-Louise Bordes</p>
+  <div class="rectangle2 "/>
 
-<div class=" flex flex-col absolute w-[236px] h-[214px] left-[789px] top-[2661px] bg-grey  "></div>
-<p class="absolute w-[373px] h-[235px] left-[1045px] top-[2640px] not-italic font-normal text-xl leading-6 text-white ">J’ai acheté à Bruno une jolie table avec deux chaises pour la terrasse à un prix très raisonnable. Super service avec livraison à domicile à vélo. Je recommande vivement ce lieu, son concept et Bruno très sympa !</p>
-<p class="absolute w-[336px] h-[88px] left-[1045px] top-[2852px] not-italic font-normal text-xl leading-6 text-white ">-Paolini Pascale</p>
-</div>
+  <div class="flex items-center py-[200px]">
+    <div class="flex gap-x-[60px] mx-[100px] py-[50px] box2 max-lg:flex-col max-md:mx-[10px]">
+      <div class="flex items-center pl-12 max-lg:pr-6 max-[450px]:flex-col max-[450px]:gap-y-2">
+        <img class="h-[132px] w-[132px] pr-6 max-[450px]:p-0 max-[450px]:h-[110px]" src="img/img-person.svg" alt="avis-meuble-circulaire">
+        <div class="flex flex-col">
+          <p class="text-black">Pour notre emménagement sur Paris, nous souhaitions acheter au maximum nos meubles en seconde main, nous sommes passés par la boutique les meubles circulaires et aucun regret. Très bonne expérience !</p>
+          <p class="py-5 text-black font-semibold">Louise Bordes</p>
+        </div>
+      </div>
+      <div class="flex items-center pr-12 max-lg:pl-6 max-[450px]:flex-col max-[450px]:gap-y-2">
+        <img class="h-[132px] w-[132px] pr-6 max-[450px]:p-0 max-[450px]:h-[110px]" src="img/img-person.svg" alt="avis-meuble-circulaire">
+        <div class="flex flex-col">
+          <p class="text-black">J’ai acheté à Bruno une jolie table avec deux chaises pour la terrasse à un prix très raisonnable. Super service avec livraison à domicile à vélo. Je recommande vivement ce lieu, son concept et Bruno très sympa !</p>
+          <p class="py-5 text-black font-semibold">Paolini Pascale</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
 
@@ -111,12 +122,16 @@ border-image: linear-gradient(to left, rgba(255, 255, 255, 0.19) 49.43%, rgba(25
 }
 
 .box{
-background: linear-gradient (185.12deg, rgba(255, 255, 255, 0.66) -7.46%, rgba(239, 243, 232, 0.264) 93.59%);
+background: linear-gradient(185.12deg, rgba(255, 255, 255, 0.66) -7.46%, rgba(239, 243, 232, 0.264) 93.59%);
 box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(4px);
 }
 
-
+.box2 {
+  background: linear-gradient(185.12deg, rgba(255, 255, 255, 0.66) -7.46%, rgba(239, 243, 232, 0.264) 93.59%);
+  box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+}
 
 @media screen and (max-width: 768px) {
   .rectangle {
