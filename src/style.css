@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 body {
-    background: gray;
-    overflow-y: hidden;
+
 }
 
-.anim:hover {
-    background-color: rgba(131, 154, 126, 0.53);
+.anim {
     transition: all .2s ease-in-out;
+}
+.anim:hover {
+    background-color: rgba(131, 154, 126, 0.4);
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
 }
