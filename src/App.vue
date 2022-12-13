@@ -14,6 +14,9 @@ import Button1 from "./components/Button1.vue"
 </div>
 
 
+<div class=" box box-border absolute w-[1012px] h-[637px] z-50">
+  <p class=" absolute left-12 top-12 not-italic font-light text-2xl leading-9">Consultez nous pour vos réparations de bois, métal, textile, cuir…, notre réseau d’artisans vous proposera la meilleure solution et la plus économique !</p>
+</div>
 
 <div class="mt-[800px]">
 
@@ -71,6 +74,15 @@ import Button1 from "./components/Button1.vue"
   border-style: solid;
   border-image: linear-gradient(to right, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%) 1;
 }
+
+.box{
+left: 224px;
+top: 583px;
+background: linear-gradient (185.12deg, rgba(255, 255, 255, 0.66) -7.46%, rgba(239, 243, 232, 0.264) 93.59%);
+box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(4px);
+}
+
 
 @media screen and (max-width: 768px) {
   .rectangle {
