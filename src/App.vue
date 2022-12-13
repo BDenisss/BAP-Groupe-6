@@ -5,7 +5,7 @@ import Button1 from "./components/Button1.vue"
 <template>
 
 <div class="img bg-cover h-full max-sm:gradiant">
-  <div class="flex justify-center w-[100%] h-[800px]">
+  <div class="flex justify-center w-[100%] h-[100vh]">
     <div class="flex flex-col justify-center items-center gap-y-9">
       <h1 class="text-white text-xl text-center px-6 max-sm:text-[17px]" id="title"> Déposez vos meubles à vendre sur notre site et laissez nous s'occuper du reste.</h1>
       <Button1 class="rounded-full" text="Catalogue"/>
@@ -54,20 +54,20 @@ import Button1 from "./components/Button1.vue"
 
   <div class="rectangle2 "/>
 
-  <div class="flex items-center py-[200px]">
-    <div class="flex gap-x-[60px] mx-[100px] py-[50px] box2 max-lg:flex-col max-md:mx-[10px]">
-      <div class="flex items-center pl-12 max-lg:pr-6 max-[450px]:flex-col max-[450px]:gap-y-2">
+  <div class="flex items-center justify-center py-[200px]">
+    <div class="flex gap-x-[60px] mx-[100px] py-[50px] box2 max-lg:flex-col max-md:mx-[10px] w-[1200px] max-lg:gap-y-2">
+      <div class="flex items-center pl-6 max-lg:pr-6 max-[450px]:flex-col max-[450px]:gap-y-2">
         <img class="h-[132px] w-[132px] pr-6 max-[450px]:p-0 max-[450px]:h-[110px]" src="img/img-person.svg" alt="avis-meuble-circulaire">
         <div class="flex flex-col">
           <p class="text-black">Pour notre emménagement sur Paris, nous souhaitions acheter au maximum nos meubles en seconde main, nous sommes passés par la boutique les meubles circulaires et aucun regret. Très bonne expérience !</p>
-          <p class="py-5 text-black font-semibold">Louise Bordes</p>
+          <p class="py-5 text-black font-semibold italic">Louise Bordes</p>
         </div>
       </div>
-      <div class="flex items-center pr-12 max-lg:pl-6 max-[450px]:flex-col max-[450px]:gap-y-2">
+      <div class="flex items-center pr-6 max-lg:pl-6 max-[450px]:flex-col max-[450px]:gap-y-2">
         <img class="h-[132px] w-[132px] pr-6 max-[450px]:p-0 max-[450px]:h-[110px]" src="img/img-person.svg" alt="avis-meuble-circulaire">
         <div class="flex flex-col">
           <p class="text-black">J’ai acheté à Bruno une jolie table avec deux chaises pour la terrasse à un prix très raisonnable. Super service avec livraison à domicile à vélo. Je recommande vivement ce lieu, son concept et Bruno très sympa !</p>
-          <p class="py-5 text-black font-semibold">Paolini Pascale</p>
+          <p class="py-5 text-black font-semibold italic">Paolini Pascale</p>
         </div>
       </div>
     </div>
@@ -96,9 +96,10 @@ import Button1 from "./components/Button1.vue"
       linear-gradient(rgba(131, 154, 126, 0.50), rgba(131, 154, 126, 0.50)),
       url("public/img/meubles.png");
   background-blend-mode: normal;
+  background-attachment: fixed;
   width: 100%;
+  height: 100%;
   border-bottom: 10px solid black;
-  clip-path: path("M523.853 648.417C414.649 853.596 147.255 761.953 27.2087 690.484H-12V-178H1752.22L1784 77.8346L1752.22 325.449C1732.47 237.515 1652.1 432.984 1578.04 510.786C1507.85 611.656 1199.7 713.01 946.436 558.854C693.177 404.699 559.189 554.331 523.853 648.417Z");
 }
 
   .rectangle {
