@@ -14,7 +14,7 @@ import Button1 from "./components/Button1.vue"
 </div>
 
 
-<div class=" box box-border absolute w-[1012px] h-[637px] z-50">
+<div class=" box box-border absolute w-[1012px] h-[637px] left-[224px] top-[583px] z-50">
   <p class=" absolute left-12 top-12 not-italic font-light text-2xl leading-9">Consultez nous pour vos réparations de bois, métal, textile, cuir…, notre réseau d’artisans vous proposera la meilleure solution et la plus économique !</p>
 </div>
 
@@ -42,6 +42,30 @@ import Button1 from "./components/Button1.vue"
   </div>
 </div>
 
+<div class=" bg-emerald-100 h-[400px]">
+
+ 
+
+</div>
+
+
+
+<div class=" bg-green h-[632px] left-px top-[2317px]">
+<div class="rectangle2"></div>
+
+<div class="max-md:flex flex-col">
+  <div class=" flex flex-col absolute w-[236px] h-[214px] left-14 top-[2661px] bg-grey  "></div>
+<p class="absolute w-[373px] h-[235px] left-[313px] top-[2640px] not-italic font-normal text-xl leading-6 text-white ">Pour notre emménagement sur Paris, nous souhaitions acheter au maximum nos meubles en seconde main, nous sommes passés par la boutique les meubles circulaires et aucun regret. Très bonne expérience !</p>
+<p class="absolute w-[336px] h-[88px] left-[313px] top-[2852px] not-italic font-normal text-xl leading-6 text-white ">-Louise Bordes</p>
+
+<div class=" flex flex-col absolute w-[236px] h-[214px] left-[789px] top-[2661px] bg-grey  "></div>
+<p class="absolute w-[373px] h-[235px] left-[1045px] top-[2640px] not-italic font-normal text-xl leading-6 text-white ">J’ai acheté à Bruno une jolie table avec deux chaises pour la terrasse à un prix très raisonnable. Super service avec livraison à domicile à vélo. Je recommande vivement ce lieu, son concept et Bruno très sympa !</p>
+<p class="absolute w-[336px] h-[88px] left-[1045px] top-[2852px] not-italic font-normal text-xl leading-6 text-white ">-Paolini Pascale</p>
+</div>
+
+
+
+</div>
 
 
 
@@ -66,22 +90,32 @@ import Button1 from "./components/Button1.vue"
   clip-path: path("M523.853 648.417C414.649 853.596 147.255 761.953 27.2087 690.484H-12V-178H1752.22L1784 77.8346L1752.22 325.449C1732.47 237.515 1652.1 432.984 1578.04 510.786C1507.85 611.656 1199.7 713.01 946.436 558.854C693.177 404.699 559.189 554.331 523.853 648.417Z");
 }
 
-.rectangle {
-  height: 60px;
-  background: linear-gradient(90.66deg, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%);
-  backdrop-filter: blur(2px);
-  border-width: 1px;
-  border-style: solid;
-  border-image: linear-gradient(to right, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%) 1;
+  .rectangle {
+    height: 60px;
+    background: linear-gradient(90.66deg, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%);
+    backdrop-filter: blur(2px);
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%) 1;
+  }
+
+.rectangle2 {
+height: 60px;
+background: linear-gradient(90.66deg, rgba(255, 255, 255, 0) 49.43%, rgba(255, 255, 255, 0.208) 74.36%);
+backdrop-filter: blur(2px);
+border-width: 2px;
+border-style:solid;
+border-image: linear-gradient(to left, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%) 1;
+
+
 }
 
 .box{
-left: 224px;
-top: 583px;
 background: linear-gradient (185.12deg, rgba(255, 255, 255, 0.66) -7.46%, rgba(239, 243, 232, 0.264) 93.59%);
 box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
 backdrop-filter: blur(4px);
 }
+
 
 
 @media screen and (max-width: 768px) {
