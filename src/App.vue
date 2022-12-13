@@ -23,12 +23,12 @@ import Button1 from "./components/Button1.vue"
     <img class="w-full absolute bottom-0 max-sm:hidden" src="public/img/Vector%209.svg" alt="path9">
 
     <div class="flex justify-center gap-x-8 mb-[150px] max-md:mb-4 max-lg:mb-6 max-xl:mb-16 max-sm:flex-col max-sm:gap-y-8">
-      <div class="flex flex-col max-sm:gap-y-1">
+      <div class="flex flex-col max-sm:gap-y-1 gap-y-8">
         <img class="h-[100px] z-10 max-md:h-[50px] max-sm:hidden" src="public/img/Group%2079.svg" alt="icone-arbre">
         <img class="h-[100px] z-10 max-md:h-[50px] sm:hidden" src="public/img/black-tree.svg" alt="icone-arbre">
         <p class="text-white text-xl font-light z-10 text-center max-md:text-[16px] max-sm:text-black">Une démarche 100 % éco-responsable</p>
       </div>
-      <div class="flex flex-col max-sm:gap-y-1">
+      <div class="flex flex-col max-sm:gap-y-1 gap-y-8">
         <img class="h-[100px] z-10 max-md:h-[50px] max-sm:hidden" src="public/img/Group%2078.svg" alt="icone-arbre">
         <img class="h-[100px] z-10 max-md:h-[50px] sm:hidden" src="public/img/black-eco.svg" alt="icone-arbre">
         <p class="text-white text-xl font-light z-10 text-center max-md:text-[16px] max-sm:text-black">Redonnez une vie à un ancien meuble</p>
