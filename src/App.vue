@@ -18,7 +18,7 @@ import Button1 from "./components/Button1.vue"
   <p class=" absolute left-12 top-12 not-italic font-light text-2xl leading-9">Consultez nous pour vos réparations de bois, métal, textile, cuir…, notre réseau d’artisans vous proposera la meilleure solution et la plus économique !</p>
 </div>
 
-<div class="mt-[800px]">
+<div class="mt-[650px]">
 
   <div class="relative">
     <img class="w-full absolute bottom-0 max-sm:hidden" src="public/img/Vector%206.svg" alt="path6">
