@@ -7,10 +7,10 @@ import Button1 from "./components/Button1.vue"
 
 
 <div class="img bg-cover h-full max-sm:gradiant">
-  <nav class="nav h-[100px] w-full top-0 absolute flex justify-center">
-    <div class="flex items-center gap-x-6">
-      <img class="pl-8 flex-none" src="/img/LOGO.png" alt="logo-les meubles circulaires">
-      <div class="flex gap-x-2">
+  <nav class="nav h-[100px] w-full top-0 absolute flex">
+    <div class="flex items-center gap-x-6 w-full justify-between">
+      <img class="pl-12 justify-start" src="/img/LOGO.png" alt="logo-les meubles circulaires">
+      <div class="flex justify-end gap-x-4 pr-12">
         <a class="text-xl text-white font-light" href="">Qui suis-je ?</a>
         <a class="text-xl text-white font-light" href="">Exemple</a>
       </div>
@@ -18,7 +18,7 @@ import Button1 from "./components/Button1.vue"
   </nav>
   <div class="flex justify-center w-[100%] h-[100vh]">
     <div class="flex flex-col justify-center items-center gap-y-9">
-      <h1 class="text-white text-xl text-center px-6 max-sm:text-[17px] font-semibold" id="title"> Déposez vos meubles à vendre sur notre site et laissez nous s'occuper du reste.</h1>
+      <h1 class="text-white text-xl text-center px-6 max-sm:text-[17px] font-normal" id="title"> Déposez vos meubles à vendre sur notre site et laissez nous s'occuper du reste.</h1>
       <Button1 class="rounded-full" text="Catalogue"/>
     </div>
   </div>
@@ -108,6 +108,7 @@ import Button1 from "./components/Button1.vue"
       url("/img/meubles.png");
   background-blend-mode: normal;
   background-attachment: fixed;
+  background-position: center;
   width: 100%;
   height: 100%;
 }
