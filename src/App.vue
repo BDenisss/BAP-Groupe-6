@@ -9,10 +9,10 @@ import Button1 from "./components/Button1.vue"
 <div class="img bg-cover h-full max-sm:gradiant">
   <nav class="nav h-[100px] w-full top-0 absolute flex">
     <div class="flex items-center gap-x-6 w-full justify-between">
-      <img class="pl-12 justify-start" src="/img/LOGO.png" id="logo" alt="logo-les meubles circulaires">
-      <div class="flex justify-end gap-x-4 pr-12">
-        <a class="text-xl text-white font-light bfr-anim" id="link1" href="#presentation">Qui suis-je ?</a>
-        <a class="text-xl text-white font-light bfr-anim" id="link2" href="">Exemple</a>
+      <img class="pl-12 justify-start max-md:h-[50px] max-md:pl-8" src="/img/LOGO.png" id="logo" alt="logo-les meubles circulaires">
+      <div class="flex justify-end gap-x-4 pr-12 max-md:pr-8">
+        <a class="text-xl text-white font-light bfr-anim max-md:text-base" id="link1" href="#presentation">Qui suis-je ?</a>
+        <a class="text-xl text-white font-light bfr-anim max-md:text-base" id="link2" href="">Exemple</a>
       </div>
     </div>
   </nav>
@@ -45,26 +45,25 @@ import Button1 from "./components/Button1.vue"
   </div>
 </div>
 
-<div class="mt-[400px]">
+<div class="mt-[150px] max-sm:mt-[250px] max-md:mt-[90px]">
 
-  <div class="relative">
+  <div class="relative max-sm:bg-darkgreen max-sm:pt-2">
+
+
     <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector%206.svg" alt="path6">
     <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector%207.svg" alt="path7">
     <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector%209.svg" alt="path9">
 
-    <div class="flex justify-center gap-x-8 mb-[150px] max-md:mb-4 max-lg:mb-6 max-xl:mb-16 max-sm:flex-col max-sm:gap-y-8">
+    <div class="flex justify-center gap-x-8 mb-[150px] max-md:mb-4 max-lg:mb-6 max-xl:mb-16 max-sm:flex-col max-sm:gap-y-8 max-sm:mb-0 max-sm:py-4">
       <div class="flex flex-col max-sm:gap-y-1 gap-y-8">
-        <img class="h-[100px] z-10 max-md:h-[50px] max-sm:hidden max-lg:h-[75px]" src="/img/Group%2079.svg" alt="icone-arbre" id="icon-arbre">
-        <img class="h-[100px] z-10 max-md:h-[50px] sm:hidden" src="/img/black-tree.svg" alt="icone-arbre" id="icon-arbre">
-        <p class="text-black text-xl font-light z-10 text-center max-sm:text-[16px] sm:text-white" id="text1">Une démarche 100 % éco-responsable</p>
+        <img class="h-[100px] z-10 max-md:h-[50px] max-lg:h-[75px]" src="/img/Group%2079.svg" alt="icone-arbre" id="icon-arbre">
+        <p class="text-xl font-light z-10 text-center max-sm:text-[16px] text-white max-sm:px-2" id="text1">Une démarche 100 % éco-responsable</p>
       </div>
       <div class="flex flex-col max-sm:gap-y-1 gap-y-8">
-        <img class="h-[100px] z-10 max-md:h-[50px] max-sm:hidden max-lg:h-[75px]" src="/img/Group%2078.svg" alt="icone-eco" id="icon-eco">
-        <img class="h-[100px] z-10 max-md:h-[50px] sm:hidden" src="/img/black-eco.svg" alt="icone-arbre" id="icon-eco">
-        <p class="text-black text-xl font-light z-10 text-center max-sm:text-[16px] sm:text-white" id="text2">Redonnez une vie à un ancien meuble</p>
+        <img class="h-[100px] z-10 max-md:h-[50px] max-lg:h-[75px]" src="/img/Group%2078.svg" alt="icone-eco" id="icon-eco">
+        <p class="text-xl font-light z-10 text-center max-sm:text-[16px] text-white max-sm:px-2" id="text2">Redonnez une vie à un ancien meuble</p>
       </div>
     </div>
-
     <div class="rectangle"/>
   </div>
 </div>
@@ -129,22 +128,22 @@ import Button1 from "./components/Button1.vue"
   height: 100%;
 }
 
-  .rectangle {
-    height: 60px;
-    background: linear-gradient(90.66deg, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%);
-    backdrop-filter: blur(2px);
-    border-width: 2px;
-    border-style: solid;
-    border-image: linear-gradient(to right, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%) 1;
-  }
+.rectangle {
+  height: 60px;
+  background: linear-gradient(90.66deg, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%);
+  backdrop-filter: blur(2px);
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%) 1;
+}
 
 .rectangle2 {
-height: 60px;
-background: linear-gradient(90.66deg, rgba(255, 255, 255, 0) 49.43%, rgba(255, 255, 255, 0.208) 74.36%);
-backdrop-filter: blur(2px);
-border-width: 2px;
-border-style:solid;
-border-image: linear-gradient(to left, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%) 1;
+  height: 60px;
+  background: linear-gradient(90.66deg, rgba(255, 255, 255, 0) 49.43%, rgba(255, 255, 255, 0.208) 74.36%);
+  backdrop-filter: blur(2px);
+  border-width: 2px;
+  border-style:solid;
+  border-image: linear-gradient(to left, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%) 1;
 
 
 }
