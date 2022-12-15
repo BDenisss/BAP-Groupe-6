@@ -9,10 +9,10 @@ import Button1 from "./components/Button1.vue"
 <div class="img bg-cover h-full max-sm:gradiant">
   <nav class="nav h-[100px] w-full top-0 absolute flex">
     <div class="flex items-center gap-x-6 w-full justify-between">
-      <img class="pl-12 justify-start" src="/img/LOGO.png" alt="logo-les meubles circulaires">
+      <img class="pl-12 justify-start" src="/img/LOGO.png" id="logo" alt="logo-les meubles circulaires">
       <div class="flex justify-end gap-x-4 pr-12">
-        <a class="text-xl text-white font-light" href="">Qui suis-je ?</a>
-        <a class="text-xl text-white font-light" href="">Exemple</a>
+        <a class="text-xl text-white font-light" id="link1" href="">Qui suis-je ?</a>
+        <a class="text-xl text-white font-light" id="link2" href="">Exemple</a>
       </div>
     </div>
   </nav>
