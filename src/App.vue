@@ -28,7 +28,7 @@ import Button1 from "./components/Button1.vue"
 
 <div class="flex items-center justify-center" id="presentation">
 
-  <div class="flex mt-[80px] mx-[50px] box max-lg:flex-col max-md:mx-[10px] w-[900px] py-8 max-md:gap-y-4 z-50 max-md:py-4 max-md:mt-[100px]">
+  <div class="flex mt-[80px] mx-[50px] box max-lg:flex-col max-md:mx-[10px] w-[900px] py-8 max-md:gap-y-4 z-50 max-md:py-4 max-md:mt-[100px] rounded-xl">
   <div class="flex items-center justify-center">
     <img class="w-[180px] md:hidden max-md:block  max-[450px]:p-0 max-[450px]:h-[150px]" id="ceo" src="img/Persona.svg" alt="meuble-circulaire">
   </div>  
@@ -81,7 +81,7 @@ import Button1 from "./components/Button1.vue"
   <div class="rectangle2 "/>
 
   <div class="flex items-center justify-center py-[200px]">
-    <div class="flex gap-x-[60px] mx-[100px] py-[50px] box2 max-lg:flex-col max-md:mx-[10px] w-[1200px] max-lg:gap-y-2">
+    <div class="flex gap-x-[60px] mx-[100px] py-[50px] box2 max-lg:flex-col max-md:mx-[10px] w-[1200px] max-lg:gap-y-2 rounded-xl">
       <div class="flex items-center pl-6 max-lg:pr-6 max-[450px]:flex-col max-[450px]:gap-y-2">
         <img class="h-[132px] w-[132px] pr-6 max-[450px]:p-0 max-[450px]:h-[110px] rounded-full" src="img/img-person.svg" alt="avis-meuble-circulaire">
         <div class="flex flex-col">
