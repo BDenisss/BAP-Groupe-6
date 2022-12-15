@@ -24,7 +24,7 @@ import Button1 from "./components/Button1.vue"
   </div>
 </div>
 
-<!--
+
 <div class=" box box-border absolute w-[1012px] h-[637px] left-[224px] top-[583px] z-50">
   <p class=" absolute left-12 top-12 not-italic font-light text-2xl leading-9">Consultez nous pour vos réparations de bois, métal, textile, cuir…, notre réseau d’artisans vous proposera la meilleure solution et la plus économique !</p>
 </div>
