@@ -20,7 +20,6 @@ defineProps(['text'])
   text-shadow: none;
   transition: border 1250ms cubic-bezier(0.19, 1, 0.22, 1),
   box-shadow 1250ms cubic-bezier(0.19, 1, 0.22, 1),
-  border 1250ms cubic-bezier(0.19, 1, 0.22, 1),
   outline-color 1250ms cubic-bezier(0.19, 1, 0.22, 1),
   outline-offset 1250ms cubic-bezier(0.19, 1, 0.22, 1),
   text-shadow 1250ms cubic-bezier(0.19, 1, 0.22, 1);

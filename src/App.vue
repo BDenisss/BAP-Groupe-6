@@ -45,7 +45,7 @@ import Button1 from "./components/Button1.vue"
   </div>
 </div>
 
-<div class="mt-[300px]">
+<div class="mt-[400px]">
 
   <div class="relative">
     <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector%206.svg" alt="path6">
