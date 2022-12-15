@@ -25,11 +25,27 @@ import Button1 from "./components/Button1.vue"
 </div>
 
 
-<div class=" box box-border absolute w-[1012px] h-[637px] left-[224px] top-[583px] z-50">
-  <p class=" absolute left-12 top-12 not-italic font-light text-2xl leading-9">Consultez nous pour vos réparations de bois, métal, textile, cuir…, notre réseau d’artisans vous proposera la meilleure solution et la plus économique !</p>
+
+<div class="flex items-center justify-center ">
+  
+  <div class="flex gap-x-[60px] mt-[80px] mx-[100px] py-[50px] box max-lg:flex-col max-md:mx-[10px] w-[934px] py-4 max-lg:gap-y-2 z-50">
+  <div class="flex items-center justify-center ">
+    <img class=" w-[180px] md:hidden max-md:block  max-[450px]:p-0 max-[450px]:h-[110px]  " src="img/Persona.svg" alt="">
+  </div>  
+
+    <div class="flex items-center mt-[20px] pl-6 max-lg:pr-6 max-[450px]:flex-col max-[450px]:gap-y-2">
+      <div class="flex flex-col">
+        <p class="font-semibold mb-[60px]">Les meubles circulaires est un service de vente, d’achat, de réparation et de livraison de meubles d’occasion en circuit court à Paris.</p>
+        <p class="font-semibold mb-[40px]">Depuis 2 ans, Bruno accompagne ses clients dans une démarche 100 % éco-responsable car depuis qu’il a commencé il n’a jamais négligé de faire preuve de loyauté envers notre planète. Et bien plus, toutes les livraisons sont effectuées par lui-même en vélo-remorque.</p>
+        <p class="font-semibold mb-[20px]">Plus de place pour un canapé, une table à manger ou encore un lit… ? Déposez vos meubles à vendre sur notre site et laissez nous s’occuper du reste.</p>
+        <p class="font-semibold"> Redonnez une vie à un ancien meuble ? Consultez nous pour vos réparations de bois, métal, textile, cuir…, notre réseau d’artisans vous proposera la meilleure solution et la plus économique !</p>
+      </div>
+      <img class="h-[208px] w-[208px] mr-[100px] mb-[80px] pr-6 max-[450px]:p-0 max-[450px]:h-[110px] max-md:hidden" src="img/Persona.svg" alt="">
+    </div>
+  </div>
 </div>
 
-<div class="mt-[800px]">
+<div class="mt-[300px]">
 
   <div class="relative">
     <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector%206.svg" alt="path6">
