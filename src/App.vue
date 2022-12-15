@@ -28,24 +28,24 @@ import Button1 from "./components/Button1.vue"
 
 <div class="flex items-center justify-center" id="presentation">
 
-  <div class="flex mt-[80px] mx-[50px] box max-lg:flex-col max-md:mx-[10px] w-[900px] py-8 max-md:gap-y-4 z-50 max-md:py-4">
-  <div class="flex items-center justify-center ">
-    <img class="w-[180px] md:hidden max-md:block  max-[450px]:p-0 max-[450px]:h-[150px]" src="img/Persona.svg" alt="">
+  <div class="flex mt-[80px] mx-[50px] box max-lg:flex-col max-md:mx-[10px] w-[900px] py-8 max-md:gap-y-4 z-50 max-md:py-4 max-md:mt-[100px]">
+  <div class="flex items-center justify-center">
+    <img class="w-[180px] md:hidden max-md:block  max-[450px]:p-0 max-[450px]:h-[150px]" id="ceo" src="img/Persona.svg" alt="meuble-circulaire">
   </div>  
 
     <div class="flex items-center gap-8 px-6 max-lg:pr-6 max-[450px]:flex-col max-[450px]:gap-y-4">
       <div class="flex flex-col">
-        <p class="font-semibold mb-[60px]">Les meubles circulaires est un service de vente, d’achat, de réparation et de livraison de meubles d’occasion en circuit court à Paris.</p>
-        <p class="font-semibold mb-[40px]">Depuis 2 ans, Bruno accompagne ses clients dans une démarche 100 % éco-responsable car depuis qu’il a commencé il n’a jamais négligé de faire preuve de loyauté envers notre planète. Et bien plus, toutes les livraisons sont effectuées par lui-même en vélo-remorque.</p>
-        <p class="font-semibold mb-[20px]">Plus de place pour un canapé, une table à manger ou encore un lit… ? Déposez vos meubles à vendre sur notre site et laissez nous s’occuper du reste.</p>
-        <p class="font-semibold"> Redonnez une vie à un ancien meuble ? Consultez nous pour vos réparations de bois, métal, textile, cuir…, notre réseau d’artisans vous proposera la meilleure solution et la plus économique !</p>
+        <p class="font-semibold mb-[60px]" id="p1">Les meubles circulaires est un service de vente, d’achat, de réparation et de livraison de meubles d’occasion en circuit court à Paris.</p>
+        <p class="font-semibold mb-[40px]" id="p2">Depuis 2 ans, Bruno accompagne ses clients dans une démarche 100 % éco-responsable car depuis qu’il a commencé il n’a jamais négligé de faire preuve de loyauté envers notre planète. Et bien plus, toutes les livraisons sont effectuées par lui-même en vélo-remorque.</p>
+        <p class="font-semibold mb-[20px]" id="p3">Plus de place pour un canapé, une table à manger ou encore un lit… ? Déposez vos meubles à vendre sur notre site et laissez nous s’occuper du reste.</p>
+        <p class="font-semibold" id="p4"> Redonnez une vie à un ancien meuble ? Consultez nous pour vos réparations de bois, métal, textile, cuir…, notre réseau d’artisans vous proposera la meilleure solution et la plus économique !</p>
       </div>
-      <img class="h-[200px] w-[200px] max-[450px]:p-0 max-[450px]:h-[110px] max-md:hidden" src="img/Persona.svg" alt="meuble-circulaire">
+      <img class="h-[200px] w-[200px] max-[450px]:p-0 max-[450px]:h-[110px] max-md:hidden" id="ceo" src="img/Persona.svg" alt="meuble-circulaire">
     </div>
   </div>
 </div>
 
-<div class="mt-[150px] max-sm:mt-[250px] max-md:mt-[90px]">
+<div class="mt-[165px] max-sm:mt-[250px] max-md:mt-[90px]">
 
   <div class="relative max-sm:bg-darkgreen max-sm:pt-2">
 
@@ -57,11 +57,11 @@ import Button1 from "./components/Button1.vue"
     <div class="flex justify-center gap-x-8 mb-[150px] max-md:mb-4 max-lg:mb-6 max-xl:mb-16 max-sm:flex-col max-sm:gap-y-8 max-sm:mb-0 max-sm:py-4">
       <div class="flex flex-col max-sm:gap-y-1 gap-y-8">
         <img class="h-[100px] z-10 max-md:h-[50px] max-lg:h-[75px]" src="/img/Group%2079.svg" alt="icone-arbre" id="icon-arbre">
-        <p class="text-xl font-light z-10 text-center max-sm:text-[16px] text-white max-sm:px-2" id="text1">Une démarche 100 % éco-responsable</p>
+        <p class="text-xl font-light z-10 text-center max-sm:text-[16px] text-white max-sm:px-2 max-md:text-[18px]" id="text1">Une démarche 100 % éco-responsable</p>
       </div>
       <div class="flex flex-col max-sm:gap-y-1 gap-y-8">
         <img class="h-[100px] z-10 max-md:h-[50px] max-lg:h-[75px]" src="/img/Group%2078.svg" alt="icone-eco" id="icon-eco">
-        <p class="text-xl font-light z-10 text-center max-sm:text-[16px] text-white max-sm:px-2" id="text2">Redonnez une vie à un ancien meuble</p>
+        <p class="text-xl font-light z-10 text-center max-sm:text-[16px] text-white max-sm:px-2 max-md:text-[18px]" id="text2">Redonnez une vie à un ancien meuble</p>
       </div>
     </div>
     <div class="rectangle"/>
@@ -83,14 +83,14 @@ import Button1 from "./components/Button1.vue"
   <div class="flex items-center justify-center py-[200px]">
     <div class="flex gap-x-[60px] mx-[100px] py-[50px] box2 max-lg:flex-col max-md:mx-[10px] w-[1200px] max-lg:gap-y-2">
       <div class="flex items-center pl-6 max-lg:pr-6 max-[450px]:flex-col max-[450px]:gap-y-2">
-        <img class="h-[132px] w-[132px] pr-6 max-[450px]:p-0 max-[450px]:h-[110px]" src="img/img-person.svg" alt="avis-meuble-circulaire">
+        <img class="h-[132px] w-[132px] pr-6 max-[450px]:p-0 max-[450px]:h-[110px] rounded-full" src="img/img-person.svg" alt="avis-meuble-circulaire">
         <div class="flex flex-col">
           <p class="text-black">Pour notre emménagement sur Paris, nous souhaitions acheter au maximum nos meubles en seconde main, nous sommes passés par la boutique les meubles circulaires et aucun regret. Très bonne expérience !</p>
           <p class="py-5 text-black font-semibold italic">Louise Bordes</p>
         </div>
       </div>
       <div class="flex items-center pr-6 max-lg:pl-6 max-[450px]:flex-col max-[450px]:gap-y-2">
-        <img class="h-[132px] w-[132px] pr-6 max-[450px]:p-0 max-[450px]:h-[110px]" src="img/img-person.svg" alt="avis-meuble-circulaire">
+        <img class="h-[132px] w-[132px] pr-6 max-[450px]:p-0 max-[450px]:h-[110px] rounded-full" src="img/img-person.svg" alt="avis-meuble-circulaire">
         <div class="flex flex-col">
           <p class="text-black">J’ai acheté à Bruno une jolie table avec deux chaises pour la terrasse à un prix très raisonnable. Super service avec livraison à domicile à vélo. Je recommande vivement ce lieu, son concept et Bruno très sympa !</p>
           <p class="py-5 text-black font-semibold italic">Paolini Pascale</p>

@@ -20,6 +20,7 @@ const TL1 = new TimelineMax({paused: true});
 
 const TL2 = new TimelineMax({paused: true})
 
+const TL3 = new TimelineMax({paused: true})
 
 TL1
     .from(logo, 0.7,{y: -100, opacity: 0})
@@ -34,12 +35,23 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 TL2
-    gsap.from("#icon-arbre",  1.2, {y: -100, opacity: 0, scrollTrigger: '#icon-arbre'})
-    gsap.from("#text1",  1.2, {y: 75, opacity: 0, scrollTrigger: '#text1'})
-    gsap.from("#icon-eco",  1.2, {y: -100, opacity: 0, scrollTrigger: '#icon-eco', delay: 0.8})
-    gsap.from("#text2",  1.2, {y: 75, opacity: 0, scrollTrigger: '#text2', delay: 0.8})
 
+    gsap.from("#ceo", 1, {y: -100, opacity: 0, scrollTrigger: '#ceo'})
+    gsap.from("#p1",1.2, {opacity: 0, scrollTrigger: '#p1'})
+    gsap.from("#p2",1.2, {opacity: 0, scrollTrigger: '#p2', delay: 0.1})
+    gsap.from("#p3",1.2, {opacity: 0, scrollTrigger: '#p3', delay: 0.2})
+    gsap.from("#p4",1.2, {opacity: 0, scrollTrigger: '#p4', delay: 0.3})
+    gsap.from("#icon-arbre",  1.2, {x: -100, opacity: 0, scrollTrigger: '#icon-arbre'})
+    gsap.from("#text1",  1.2, {x: -75, opacity: 0, scrollTrigger: '#icon-arbre'})
+    gsap.from("#icon-eco",  1.2, {x: 100, opacity: 0, scrollTrigger: '#icon-eco', delay: 0.1})
+    gsap.from("#text2",  1.2, {x: 75, opacity: 0, scrollTrigger: '#icon-eco', delay: 0.1})
 
 TL2.play();
+
+TL3
+
+
+
+TL3.play();
 
 
