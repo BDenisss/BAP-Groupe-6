@@ -4,7 +4,7 @@ defineProps(['text'])
 
 <template>
 
-  <button class=" text-[#FFFFFF] font-normal py-[11px] px-[52px] rounded-full text-2xl max-sm:py-[8px] max-sm:px-[32px] max-sm:text-[20px] btn-5" id="btn">{{text}}</button>
+  <a class=" text-[#FFFFFF] font-normal py-[11px] px-[52px] rounded-full text-2xl max-sm:py-[8px] max-sm:px-[32px] max-sm:text-[20px] btn-5" target="_blank" href="https://lesmeublescirculaires.fr/boutique-meubles-occasion-a-paris/" id="btn">{{text}}</a>
 
 </template>
 
@@ -16,6 +16,7 @@ defineProps(['text'])
   outline: 1px solid;
   outline-color: rgba(255, 255, 255, .5);
   outline-offset: 0px;
+  cursor: pointer;
   text-shadow: none;
   transition: border 1250ms cubic-bezier(0.19, 1, 0.22, 1),
   box-shadow 1250ms cubic-bezier(0.19, 1, 0.22, 1),

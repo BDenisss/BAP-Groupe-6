@@ -11,8 +11,8 @@ import Button1 from "./components/Button1.vue"
     <div class="flex items-center gap-x-6 w-full justify-between">
       <img class="pl-12 justify-start" src="/img/LOGO.png" id="logo" alt="logo-les meubles circulaires">
       <div class="flex justify-end gap-x-4 pr-12">
-        <a class="text-xl text-white font-light" id="link1" href="">Qui suis-je ?</a>
-        <a class="text-xl text-white font-light" id="link2" href="">Exemple</a>
+        <a class="text-xl text-white font-light bfr-anim" id="link1" href="#presentation">Qui suis-je ?</a>
+        <a class="text-xl text-white font-light bfr-anim" id="link2" href="">Exemple</a>
       </div>
     </div>
   </nav>
@@ -26,21 +26,21 @@ import Button1 from "./components/Button1.vue"
 
 
 
-<div class="flex items-center justify-center ">
-  
-  <div class="flex gap-x-[60px] mt-[80px] mx-[100px] py-[50px] box max-lg:flex-col max-md:mx-[10px] w-[934px] py-4 max-lg:gap-y-2 z-50">
+<div class="flex items-center justify-center" id="presentation">
+
+  <div class="flex mt-[80px] mx-[50px] box max-lg:flex-col max-md:mx-[10px] w-[900px] py-8 max-md:gap-y-4 z-50 max-md:py-4">
   <div class="flex items-center justify-center ">
-    <img class=" w-[180px] md:hidden max-md:block  max-[450px]:p-0 max-[450px]:h-[110px]  " src="img/Persona.svg" alt="">
+    <img class="w-[180px] md:hidden max-md:block  max-[450px]:p-0 max-[450px]:h-[150px]" src="img/Persona.svg" alt="">
   </div>  
 
-    <div class="flex items-center mt-[20px] pl-6 max-lg:pr-6 max-[450px]:flex-col max-[450px]:gap-y-2">
+    <div class="flex items-center gap-8 px-6 max-lg:pr-6 max-[450px]:flex-col max-[450px]:gap-y-4">
       <div class="flex flex-col">
         <p class="font-semibold mb-[60px]">Les meubles circulaires est un service de vente, d’achat, de réparation et de livraison de meubles d’occasion en circuit court à Paris.</p>
         <p class="font-semibold mb-[40px]">Depuis 2 ans, Bruno accompagne ses clients dans une démarche 100 % éco-responsable car depuis qu’il a commencé il n’a jamais négligé de faire preuve de loyauté envers notre planète. Et bien plus, toutes les livraisons sont effectuées par lui-même en vélo-remorque.</p>
         <p class="font-semibold mb-[20px]">Plus de place pour un canapé, une table à manger ou encore un lit… ? Déposez vos meubles à vendre sur notre site et laissez nous s’occuper du reste.</p>
         <p class="font-semibold"> Redonnez une vie à un ancien meuble ? Consultez nous pour vos réparations de bois, métal, textile, cuir…, notre réseau d’artisans vous proposera la meilleure solution et la plus économique !</p>
       </div>
-      <img class="h-[208px] w-[208px] mr-[100px] mb-[80px] pr-6 max-[450px]:p-0 max-[450px]:h-[110px] max-md:hidden" src="img/Persona.svg" alt="">
+      <img class="h-[200px] w-[200px] max-[450px]:p-0 max-[450px]:h-[110px] max-md:hidden" src="img/Persona.svg" alt="meuble-circulaire">
     </div>
   </div>
 </div>
@@ -56,12 +56,12 @@ import Button1 from "./components/Button1.vue"
       <div class="flex flex-col max-sm:gap-y-1 gap-y-8">
         <img class="h-[100px] z-10 max-md:h-[50px] max-sm:hidden max-lg:h-[75px]" src="/img/Group%2079.svg" alt="icone-arbre" id="icon-arbre">
         <img class="h-[100px] z-10 max-md:h-[50px] sm:hidden" src="/img/black-tree.svg" alt="icone-arbre" id="icon-arbre">
-        <p class="text-black text-xl font-light z-10 text-center max-sm:text-[16px] sm:text-white">Une démarche 100 % éco-responsable</p>
+        <p class="text-black text-xl font-light z-10 text-center max-sm:text-[16px] sm:text-white" id="text1">Une démarche 100 % éco-responsable</p>
       </div>
       <div class="flex flex-col max-sm:gap-y-1 gap-y-8">
         <img class="h-[100px] z-10 max-md:h-[50px] max-sm:hidden max-lg:h-[75px]" src="/img/Group%2078.svg" alt="icone-eco" id="icon-eco">
         <img class="h-[100px] z-10 max-md:h-[50px] sm:hidden" src="/img/black-eco.svg" alt="icone-arbre" id="icon-eco">
-        <p class="text-black text-xl font-light z-10 text-center max-sm:text-[16px] sm:text-white">Redonnez une vie à un ancien meuble</p>
+        <p class="text-black text-xl font-light z-10 text-center max-sm:text-[16px] sm:text-white" id="text2">Redonnez une vie à un ancien meuble</p>
       </div>
     </div>
 
@@ -166,11 +166,11 @@ backdrop-filter: blur(4px);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
 }
-a {
+.bfr-anim {
   position: relative;
 }
 
-a::before {
+.bfr-anim::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -184,7 +184,7 @@ a::before {
   transition: transform .3s ease-in-out;
 }
 
-a:hover::before {
+.bfr-anim:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
