@@ -247,6 +247,7 @@ import Button1 from "./components/Button1.vue"
   content:"";
   position: fixed;
   position: -ms-device-fixed;
+
   top:0;
   height:100vh; /* fix for mobile browser address bar appearing disappearing */
   left:0;
@@ -342,9 +343,11 @@ backdrop-filter: blur(4px);
   height: 227px;
   width: 372px;
   border-radius: 50px 0px;
-  border: 3px solid rgba(201, 197, 197, 0.781);
+  border: 2px solid rgba(201, 197, 197, 0.781);
+}
 
-  
+.product .card .image img:hover{
+
 }
 
 .swiper-pagination{
