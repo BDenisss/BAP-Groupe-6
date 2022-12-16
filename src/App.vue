@@ -68,15 +68,110 @@ import Button1 from "./components/Button1.vue"
   </div>
 </div>
 
-<div class=" bg-emerald-100 h-[400px]">
-
- 
-
-</div>
 
 
 
-<div class="bg-darkgreen">
+
+<div class="product flex flex-col">
+    
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper content">
+        <div class="swiper-slide card">
+          <div class="content">
+            <div class="image">
+              <img src="img/img1.png" alt="">
+            </div>
+
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="content">
+            <div class="image">
+              <img src="img/img2.png" alt="">
+            </div>
+
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="content">
+            <div  class="image ">
+              <img src="img/img3.png" alt="">
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="content">
+            <div class="image">
+              <img src="img/img4.png" alt="">
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="content">
+            <div class="image">
+              <img src="img/img5.png" alt="">
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="content">
+            <div  class="image">
+              <img src="img/img1.png" alt="">
+            </div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="content">
+            <div class="image">
+              <img src="img/img2.png" alt="">
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="swiper-slide card">
+          <div class="content">
+            <div class="image">
+              <img src="img/img3.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide card">
+          <div class="content">
+            <div class="image ">
+              <img src="img/img4.png" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div> 
+
+  
+
+    <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+      
+  </div>
+
+
+
+
+
+
+<div class="bg-darkgreen mt-[100px]">
 
   <div class="rectangle2 "/>
 
@@ -189,10 +284,64 @@ backdrop-filter: blur(4px);
 }
 
 
+
+.product{
+  position: relative;  
+  height: 227px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+.product .swiper{
+  width: 80%;
+}
+
+
+.product .card .image img{
+  height: 227px;
+  width: 372px;
+  border-radius: 50px 0px;
+  border: 3px solid rgba(201, 197, 197, 0.781);
+
+  
+}
+
+.swiper-pagination{
+  top: 250px;
+  
+}
+
+/* .swiper-pagination-bullet{
+  height: 7px;
+  width: 26px;
+  border-radius: 5px;
+  background: rgb(4, 27, 177);
+} */
+
+.swiper-button-next, .swiper-button-prev{
+  opacity: 0.7;
+  color:#839A7E;
+  transition: all 0.3s ease;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover{
+  opacity: 1;
+  color: rgb(6, 147, 46);
+}
+
+
 @media screen and (max-width: 768px) {
   .rectangle {
     height: 30px;
   }
+.content{
+  min-width: 50%;
+}
+
 }
 
 
