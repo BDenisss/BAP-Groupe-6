@@ -30,7 +30,7 @@ import Button1 from "./components/Button1.vue"
 
   <div class="flex mt-[80px] mx-[50px] box max-lg:flex-col max-md:mx-[10px] w-[900px] py-8 max-md:gap-y-4 z-50 max-md:py-4 max-md:mt-[100px] rounded-xl">
   <div class="flex items-center justify-center">
-    <img class="w-[180px] md:hidden max-md:block  max-[450px]:p-0 max-[450px]:h-[150px]" id="ceo" src="img/persona.svg" alt="meuble-circulaire">
+    <img class="w-[180px] md:hidden max-md:block  max-[450px]:p-0 max-[450px]:h-[150px]" id="ceo" src="/img/persona.svg" alt="meuble-circulaire">
   </div>  
 
     <div class="flex items-center gap-8 px-6 max-lg:pr-6 max-[450px]:flex-col max-[450px]:gap-y-4">
@@ -40,7 +40,7 @@ import Button1 from "./components/Button1.vue"
         <p class="font-semibold mb-[20px]" id="p3">Plus de place pour un canapé, une table à manger ou encore un lit… ? Déposez vos meubles à vendre sur notre site et laissez nous s’occuper du reste.</p>
         <p class="font-semibold" id="p4"> Redonnez une vie à un ancien meuble ? Consultez nous pour vos réparations de bois, métal, textile, cuir…, notre réseau d’artisans vous proposera la meilleure solution et la plus économique !</p>
       </div>
-      <img class="h-[200px] w-[200px] max-[450px]:p-0 max-[450px]:h-[110px] max-md:hidden" id="ceo" src="img/persona.svg" alt="meuble-circulaire">
+      <img class="h-[200px] w-[200px] max-[450px]:p-0 max-[450px]:h-[110px] max-md:hidden" id="ceo" src="/img/persona.svg" alt="meuble-circulaire">
     </div>
   </div>
 </div>
