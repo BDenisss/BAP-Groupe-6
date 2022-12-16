@@ -235,6 +235,10 @@ import Button1 from "./components/Button1.vue"
   background-position: center;
   width: 100%;
   height: 100%;
+  -webkit-background-image:
+      linear-gradient(rgba(131, 154, 126, 0.50), rgba(131, 154, 126, 0.50)),
+      url("/img/meubles.png");
+  -webkit-background-size: cover;
 }
 
 .rectangle {
