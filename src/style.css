@@ -21,3 +21,14 @@ html {
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
 }
 
+@supports ( -webkit-touch-callout : none) {
+    .selector {
+        background-attachment:scroll
+    }
+}
+
+@supports not ( -webkit-touch-callout : none) {
+    .selector {
+        background-attachment: fixed;
+    }
+}

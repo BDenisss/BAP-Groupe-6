@@ -246,6 +246,7 @@ import Button1 from "./components/Button1.vue"
 .img:after{
   content:"";
   position: fixed;
+  position: -ms-device-fixed;
   top:0;
   height:100vh; /* fix for mobile browser address bar appearing disappearing */
   left:0;
