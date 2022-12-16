@@ -239,7 +239,9 @@ import Button1 from "./components/Button1.vue"
       linear-gradient(rgba(131, 154, 126, 0.50), rgba(131, 154, 126, 0.50)),
       url("/img/meubles.png");
   -webkit-background-size: cover;
-}
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
 
 .rectangle {
   height: 60px;
