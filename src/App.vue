@@ -249,10 +249,10 @@ import Button1 from "./components/Button1.vue"
   position: -ms-device-fixed;
 
   top:0;
-  height:100vh; /* fix for mobile browser address bar appearing disappearing */
+  height:100vh;
   left:0;
   right:0;
-  z-index:-1; /* needed to keep in the background */
+  z-index:-1;
   background-image:
       linear-gradient(rgba(131, 154, 126, 0.50), rgba(131, 154, 126, 0.50)),
       url("/img/haha.jpg");
