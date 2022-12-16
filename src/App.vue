@@ -47,7 +47,7 @@ import Button1 from "./components/Button1.vue"
 
 
 
-<img class="absolute w-full h-full z-40" src="/img/Group%20106.svg" alt="">
+<img class="absolute w-full h-full z-40" src="img/Group%20106.svg" alt="">
 <div class="mt-[165px] max-sm:mt-[20s0px] max-md:mt-[90px]">
 
 
