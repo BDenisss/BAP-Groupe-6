@@ -344,11 +344,9 @@ backdrop-filter: blur(4px);
   width: 372px;
   border-radius: 50px 0px;
   border: 2px solid rgba(201, 197, 197, 0.781);
+  transition: all .2s ease-in-out;
 }
 
-.product .card .image img:hover{
-
-}
 
 .swiper-pagination{
   top: 250px;
