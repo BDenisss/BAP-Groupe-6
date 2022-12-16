@@ -12,7 +12,7 @@ import Button1 from "./components/Button1.vue"
       <img class="pl-12 justify-start max-md:h-[50px] max-md:pl-8" src="/img/LOGO.png" id="logo" alt="logo-les meubles circulaires">
       <div class="flex justify-end gap-x-4 pr-12 max-md:pr-8">
         <a class="text-xl text-white font-light bfr-anim max-md:text-base" id="link1" href="#presentation">Qui suis-je ?</a>
-        <a class="text-xl text-white font-light bfr-anim max-md:text-base" id="link2" href="">Exemple</a>
+        <a class="text-xl text-white font-light bfr-anim max-md:text-base" id="link2" href="#slider">Exemple</a>
       </div>
     </div>
   </nav>
@@ -71,7 +71,7 @@ import Button1 from "./components/Button1.vue"
       </div>
     </div>
 
-    <div class="rectangle"/>
+    <div class="rectangle" id="slider"/>
   </div>
 </div>
 
@@ -79,9 +79,9 @@ import Button1 from "./components/Button1.vue"
 
 
 
+<div class="my-[50px]">
+  <div class="product flex flex-col">
 
-<div class="product flex flex-col">
-    
     <div class="swiper mySwiper container">
       <div class="swiper-wrapper content">
         <div class="swiper-slide card">
@@ -166,22 +166,24 @@ import Button1 from "./components/Button1.vue"
         </div>
 
       </div>
-    </div> 
+    </div>
 
-  
+
 
     <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-      
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+
   </div>
 
 
+</div>
 
 
 
 
-<div class="bg-darkgreen mt-[100px]">
+
+<div class="bg-darkgreen">
 
 
 <div class="bg-darkgreen">
@@ -301,12 +303,9 @@ backdrop-filter: blur(4px);
 .product{
   position: relative;  
   height: 227px;
-  margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-
-
 }
 
 
