@@ -243,6 +243,23 @@ import Button1 from "./components/Button1.vue"
   -o-background-size: cover;
   background-size: cover;}
 
+.img:after{
+  content:"";
+  position: fixed;
+  top:0;
+  height:100vh; /* fix for mobile browser address bar appearing disappearing */
+  left:0;
+  right:0;
+  z-index:-1; /* needed to keep in the background */
+  background-image:
+      linear-gradient(rgba(131, 154, 126, 0.50), rgba(131, 154, 126, 0.50)),
+      url("/img/haha.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .rectangle {
   height: 60px;
   background: linear-gradient(90.66deg, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%);
@@ -343,7 +360,7 @@ backdrop-filter: blur(4px);
 
 .swiper-button-next, .swiper-button-prev{
   opacity: 0.7;
-  color:#839A7E;
+  color:#FFFFFF;
   transition: all 0.3s ease;
 }
 .swiper-button-next:hover, .swiper-button-prev:hover{
