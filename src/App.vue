@@ -170,9 +170,9 @@ import Button1 from "./components/Button1.vue"
 
 
 
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next max-[575px]:hidden"></div>
+    <div class="swiper-button-prev max-[575px]:hidden"></div>
+    <div class="swiper-pagination max-[575px]:block"></div>
 
   </div>
 
