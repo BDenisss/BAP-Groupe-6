@@ -45,16 +45,22 @@ import Button1 from "./components/Button1.vue"
   </div>
 </div>
 
-<div class="mt-[165px] max-sm:mt-[250px] max-md:mt-[90px]">
 
-  <div class="relative max-sm:bg-darkgreen max-sm:pt-2">
 
+<img class="absolute w-full h-full z-40" src="/img/Group%20106.svg" alt="">
+<div class="mt-[165px] max-sm:mt-[20s0px] max-md:mt-[90px]">
+
+
+  <div class="relative max-sm:bg-darkgreen">
+    <div class="rectangle2 md:hidden"/>
 
     <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector%206.svg" alt="path6">
     <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector%207.svg" alt="path7">
     <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector%209.svg" alt="path9">
 
+
     <div class="flex justify-center gap-x-8 mb-[150px] max-md:mb-4 max-lg:mb-6 max-xl:mb-16 max-sm:flex-col max-sm:gap-y-8 max-sm:mb-0 max-sm:py-4">
+
       <div class="flex flex-col max-sm:gap-y-1 gap-y-8">
         <img class="h-[100px] z-10 max-md:h-[50px] max-lg:h-[75px]" src="/img/Group%2079.svg" alt="icone-arbre" id="icon-arbre">
         <p class="text-xl font-light z-10 text-center max-sm:text-[16px] text-white max-sm:px-2 max-md:text-[18px]" id="text1">Une démarche 100 % éco-responsable</p>
@@ -64,6 +70,7 @@ import Button1 from "./components/Button1.vue"
         <p class="text-xl font-light z-10 text-center max-sm:text-[16px] text-white max-sm:px-2 max-md:text-[18px]" id="text2">Redonnez une vie à un ancien meuble</p>
       </div>
     </div>
+
     <div class="rectangle"/>
   </div>
 </div>
@@ -77,7 +84,6 @@ import Button1 from "./components/Button1.vue"
 
 
 <div class="bg-darkgreen">
-
   <div class="rectangle2 "/>
 
   <div class="flex items-center justify-center py-[200px]">
@@ -116,7 +122,6 @@ import Button1 from "./components/Button1.vue"
   background-color: #4B5D4C;
 }
 
-
 .img {
   background-image:
       linear-gradient(rgba(131, 154, 126, 0.50), rgba(131, 154, 126, 0.50)),
@@ -144,6 +149,7 @@ import Button1 from "./components/Button1.vue"
   border-width: 2px;
   border-style:solid;
   border-image: linear-gradient(to left, rgba(255, 255, 255, 0.19) 49.43%, rgba(255, 255, 255, 0) 74.36%) 1;
+
 
 
 }
@@ -191,6 +197,9 @@ backdrop-filter: blur(4px);
 
 @media screen and (max-width: 768px) {
   .rectangle {
+    height: 30px;
+  }
+  .rectangle2 {
     height: 30px;
   }
 }
