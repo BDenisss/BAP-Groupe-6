@@ -69,7 +69,30 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-  });
+    breakpoints: {
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+                loop: true,
+    loopFillGroupWithBlank: true,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+            slidesPerGroup: 2,
+                loop: true,
+    loopFillGroupWithBlank: true,
+        },
+        350: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            slidesPerGroup: 1,
+                loop: true,
+    loopFillGroupWithBlank: true,
+        }
+    }
+});
   
 
 

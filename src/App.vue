@@ -78,7 +78,7 @@ import Button1 from "./components/Button1.vue"
 
 
 
-<<<<<<< HEAD
+
 
 <div class="product flex flex-col">
     
@@ -86,6 +86,8 @@ import Button1 from "./components/Button1.vue"
       <div class="swiper-wrapper content">
         <div class="swiper-slide card">
           <div class="content">
+
+
             <div class="image">
               <img src="img/img1.png" alt="">
             </div>
@@ -181,9 +183,9 @@ import Button1 from "./components/Button1.vue"
 
 <div class="bg-darkgreen mt-[100px]">
 
-=======
+
 <div class="bg-darkgreen">
->>>>>>> bb43a4eb3bd2c49b004dbf6e24357b9f1635a025
+
   <div class="rectangle2 "/>
 
   <div class="flex items-center justify-center py-[200px]">
@@ -207,7 +209,7 @@ import Button1 from "./components/Button1.vue"
 
 
 
-
+</div>
 </div>
 
 
@@ -345,20 +347,18 @@ backdrop-filter: blur(4px);
 }
 
 
+
+
 @media screen and (max-width: 768px) {
   .rectangle {
     height: 30px;
   }
-<<<<<<< HEAD
-.content{
-  min-width: 50%;
-}
 
-=======
+
   .rectangle2 {
     height: 30px;
   }
->>>>>>> bb43a4eb3bd2c49b004dbf6e24357b9f1635a025
+
 }
 
 
