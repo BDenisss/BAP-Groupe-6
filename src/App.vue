@@ -47,26 +47,26 @@ import Button1 from "./components/Button1.vue"
 
 
 
-<img class="absolute w-full h-full z-40" src="img/Group%20106.svg" alt="">
+<img class="absolute w-full h-full z-40" src="/img/Group106.svg" alt="">
 <div class="mt-[165px] max-sm:mt-[20s0px] max-md:mt-[90px]">
 
 
   <div class="relative max-sm:bg-darkgreen">
     <div class="rectangle2 md:hidden"/>
 
-    <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector%206.svg" alt="path6">
-    <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector%207.svg" alt="path7">
-    <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector%209.svg" alt="path9">
+    <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector6.svg" alt="path6">
+    <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector7.svg" alt="path7">
+    <img class="w-full absolute bottom-0 max-sm:hidden" src="/img/Vector9.svg" alt="path9">
 
 
     <div class="flex justify-center gap-x-8 mb-[150px] max-md:mb-4 max-lg:mb-6 max-xl:mb-16 max-sm:flex-col max-sm:gap-y-8 max-sm:mb-0 max-sm:py-4">
 
       <div class="flex flex-col max-sm:gap-y-1 gap-y-8">
-        <img class="h-[100px] z-10 max-md:h-[50px] max-lg:h-[75px]" src="/img/Group%2079.svg" alt="icone-arbre" id="icon-arbre">
+        <img class="h-[100px] z-10 max-md:h-[50px] max-lg:h-[75px]" src="/img/Group79.svg" alt="icone-arbre" id="icon-arbre">
         <p class="text-xl font-light z-10 text-center max-sm:text-[16px] text-white max-sm:px-2 max-md:text-[18px]" id="text1">Une démarche 100 % éco-responsable</p>
       </div>
       <div class="flex flex-col max-sm:gap-y-1 gap-y-8">
-        <img class="h-[100px] z-10 max-md:h-[50px] max-lg:h-[75px]" src="/img/Group%2078.svg" alt="icone-eco" id="icon-eco">
+        <img class="h-[100px] z-10 max-md:h-[50px] max-lg:h-[75px]" src="/img/Group78.svg" alt="icone-eco" id="icon-eco">
         <p class="text-xl font-light z-10 text-center max-sm:text-[16px] text-white max-sm:px-2 max-md:text-[18px]" id="text2">Redonnez une vie à un ancien meuble</p>
       </div>
     </div>
@@ -186,7 +186,7 @@ import Button1 from "./components/Button1.vue"
 
 <div class="bg-darkgreen">
 
-  <div class="rectangle2 "/>
+  <div class="rectangle2"/>
 
   <div class="flex items-center justify-center py-[200px]">
     <div class="flex gap-x-[60px] mx-[100px] py-[50px] box2 max-lg:flex-col max-md:mx-[10px] w-[1200px] max-lg:gap-y-2 rounded-xl">
